@@ -1,0 +1,60 @@
+.header{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #d3d3d3;
+  height: 10vh;
+}
+
+
+.amount {
+  display: flex;
+  width: 210px;
+  padding: 3px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.interest-rate{
+  display: flex;
+  width: 200px;
+  padding: 3px;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.term{
+  display: flex;
+  width: 220px;
+  padding: 3px;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+input {
+  width: 75px;
+  border: 1px lightgray solid;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+
+}
+
+.calculator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
